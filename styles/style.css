@@ -245,16 +245,16 @@ header {
         font-size: 12px;
         padding: 8px;
     }
+    .header-name {
+        display: none;
+    }
     .logo-header img {
         height: 35px;
     }
     #nav-bar {
-        flex-direction: column;
-        line-height: 1;
-        justify-content: center;
-        align-items: flex-end;
         font-size: 12px;
         margin: 0 5px 0 0;
+        padding-inline-start: 0;
     }
     #nav-bar li {
         margin: 0 4px;
